@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Interview locations" max_length="40" name="x_cits2_human_reso_interview_locations" type="collection">
+        <element label="Address" max_length="200" name="address" type="string"/>
+        <element label="City" max_length="32" name="city" reference="u_cities" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Zip / Postal Code" max_length="40" name="zip_postal_code" type="string"/>
+        <index name="index">
+            <element name="city"/>
+        </index>
+    </element>
+</database>

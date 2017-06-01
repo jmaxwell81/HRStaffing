@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.detail_row=short_description,all_tables.display_color=priority,extension_model=hierarchy,largeTable=true,hasListeners=true" audit="true" label="Task" max_length="40" name="task" sizeclass="39022" text_index="true" type="collection">
+        <element hint="Journaled field, shared with the end user" label="Additional comments(comments)" max_length="4000" name="comments" spell_check="true" type="journal_input"/>
+    </element>
+</database>

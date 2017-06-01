@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="ce82924a4ff74e006be5e8128110c738" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_cits2_human_reso_hr_staffing_task</collection>
+        <condition table="x_cits2_human_reso_hr_staffing_task">assigned_toISNOTEMPTY^assigned_toVALCHANGES^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p></p>
+<p><span style="font-family: verdana,geneva; font-size: 10pt;">Estimado(a) ${assigned_to}</span></p>
+<p><span style="font-family: verdana,geneva; font-size: 10pt;">La requisici&oacute;n de personal ${number} ha sido asignado a ti:<br /></span></p>
+<p><span style="font-family: verdana,geneva; font-size: 10pt;"><strong>Descripci&oacute;n breve:</strong>&nbsp;${short_description}</span><br /><span style="font-family: verdana,geneva; font-size: 10pt;"><strong>Descripci&oacute;n</strong>: ${description}</span><br /><span style="font-family: verdana,geneva; font-size: 10pt;"><strong>Solicitado para:</strong>&nbsp;${requested_for} (<span style="font-family: verdana,geneva; font-size: 10pt;">${requested_for.email})</span><br /></span></p>
+<p><span style="font-family: verdana,geneva; font-size: 10pt;">Dar click en la siguiente liga para visualizar el incidente: ${URI_REF}</span></p>
+<p><span style="font-family: verdana,geneva; font-size: 10pt;">Saludos cordiales</span>&nbsp;<br /><span style="font-size: 7pt; color: #808080;"><strong>- . - . - . - . . - . - . - . . - . - . - . . - . - . - .&nbsp;</strong><span style="font-size: 7pt; color: #808080;">. - . - . - .</span>&nbsp;<span style="font-size: 7pt; color: #808080;"><span style="font-size: 7pt; color: #808080;">. - . - . - .</span></span></span><br /><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;"><strong><img style="align: baseline;" title="" src="/AGS%20NASOFT%20LOGO.jpgx" alt="" align="bottom" border="" hspace="" vspace="" /></strong></span><br /><strong><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;"><span style="font-size: 8pt; color: #808080;">Application Management Services</span><br /></span></strong><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;">+52 (55) 52581400<strong><br /></strong>01 800 377 2727<span style="font-family: verdana,geneva; font-size: 10pt;"></span><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;"><strong><br /></strong></span></span></p>
+<p><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;"><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;">Luz Savi&ntilde;on no 13,<span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;">&nbsp;5o piso<br /></span></span>Col. Del Valle | 03819, M&eacute;xico DF<span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;"><strong><br />www.agsnasoft.com<span style="font-family: verdana,geneva; font-size: 10pt;"></span></strong></span>&nbsp;<br /></span><span style="font-size: 7pt; font-family: verdana,geneva; color: #999999;"><span style="font-family: verdana,geneva; font-size: 10pt;"><img style="align: baseline;" title="" src="/Easy%20to%20work%20with.jpgx" alt="" align="bottom" border="" hspace="" vspace="" /></span></span></p>
+<p><span style="font-family: verdana,geneva; font-size: 7pt; color: #999999;">Este mensaje incluyendo los archivos adjuntos, son confidenciales y propiedad de AGS NASOFT y/o cualquiera de sus filiales. Si usted no es destinatario de esta informaci&oacute;n, por favor notif&iacute;queselo al remitente original; despu&eacute;s borre y destruya el mensaje y todas sus copias. Queda prohibida su reproducci&oacute;n total o parcial sin autorizaci&oacute;n del remitente. Antes de imprimir este e-mail piense bien si es necesario hacerlo.</span></p>
+<p></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HRST asignado a mi</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - ${short_description} </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 13:50:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+        <sys_domain_path>!!!/!!!/!!$/!!!/</sys_domain_path>
+        <sys_id>b3d98e9d4fbe9a0000fcbc218110c7a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HRST asignado a mi</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sysevent_email_action_b3d98e9d4fbe9a0000fcbc218110c7a5</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-20 17:54:00</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="customer_interview_date" label="Customer interview date" language="en" table="x_cits2_human_reso_candidate">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customer_interview_date</element>
+            <help/>
+            <hint/>
+            <label>Customer interview date</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <plural>Customer interview dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 14:20:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa31888b4f721e006be5e8128110c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer interview date</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_documentation_x_cits2_human_reso_candidate_customer_interview_date_en</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 14:20:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

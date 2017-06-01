@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d11364fe4fbeda006be5e8128110c7d7" sys_domain="ce82924a4ff74e006be5e8128110c738" table="x_cits2_human_reso_candidate" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 22:09:37</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>551364fe4fbeda006be5e8128110c7d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8bd3bf624fbeda006be5e8128110c7de</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-18 22:09:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 18:00:14</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>75933c4b4ff21e0000fcbc218110c7e8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">b1933c4b4ff21e0000fcbc218110c7e8</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 22:09:37</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>991364fe4fbeda006be5e8128110c7d7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="Candidate profile" display_value="Candidate profile" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d51364fe4fbeda006be5e8128110c7d7</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 22:22:48</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d6166cfe4fbeda006be5e8128110c787</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="Internal process records" display_value="Internal process records" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">16166cfe4fbeda006be5e8128110c787</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 22:29:06</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>b687e4324ffeda006be5e8128110c7c4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="Customer process records" display_value="Customer process records" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">e287e4324ffeda006be5e8128110c7c4</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 14:56:20</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>4c89804f4f721e006be5e8128110c797</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:17:11</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>a80cdc074ff21e0000fcbc218110c7e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cits2_human_reso_candidate" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">d11364fe4fbeda006be5e8128110c7d7</sys_ui_form>
+            <sys_ui_section caption="Closure notes" display_value="Closure notes" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">e40cdc074ff21e0000fcbc218110c7e4</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cits2_human_reso_candidate</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 22:09:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d11364fe4fbeda006be5e8128110c7d7</sys_id>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_name>x_cits2_human_reso_candidate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d11364fe4fbeda006be5e8128110c7d7</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 18:00:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

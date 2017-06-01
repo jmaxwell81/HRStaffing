@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="Human Resources Table" max_length="40" name="x_cits2_human_reso_human_resources_table" type="collection"/>
+</database>

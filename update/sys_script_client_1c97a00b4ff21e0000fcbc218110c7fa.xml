@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="ce82924a4ff74e006be5e8128110c738" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Este script oculta la sección "hiring requirements" cuando el campo "viable assignment" no es TRUE.</description>
+        <field>viable_for_customer</field>
+        <global>true</global>
+        <messages/>
+        <name>CDT - Hide Section hiring requirements</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var viable_assign = g_form.getValue('viable_assignment');
+	//g_form.addInfoMessage(viable_assign);
+	
+	
+//para ocultar una sección se ocupa el metodo setSectionDisplay y se ocupa como parametro el nombre de la sección, si este posee espacios, el primero se sustituye por un guión bajo, y el resto de los espacios se elimina, todo debe de estar en minusculas
+	
+	if(viable_assign == "false")
+	{
+		g_form.setSectionDisplay('hiring_requirements', false);
+	}
+	
+	else
+	{
+		g_form.setSectionDisplay('hiring_requirements', true);
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-19 17:07:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+        <sys_domain_path>!!!/!!!/!!$/!!#/</sys_domain_path>
+        <sys_id>1c97a00b4ff21e0000fcbc218110c7fa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CDT - Hide Section hiring requirements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_script_client_1c97a00b4ff21e0000fcbc218110c7fa</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-19 17:22:46</sys_updated_on>
+        <table>x_cits2_human_reso_candidate</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

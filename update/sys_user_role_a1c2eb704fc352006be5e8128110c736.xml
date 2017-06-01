@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Rol para usuarios claves solicitantes de servicios de staffing</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_cits2_human_reso.Usuario clave</name>
+        <suffix>Usuario clave</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-25 17:15:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a1c2eb704fc352006be5e8128110c736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cits2_human_reso.Usuario clave</sys_name>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_user_role_a1c2eb704fc352006be5e8128110c736</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-25 17:15:15</sys_updated_on>
+    </sys_user_role>
+</record_update>

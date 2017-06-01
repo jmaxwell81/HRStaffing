@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_cits2_human_reso_candidate" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interview (pending)</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>0</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:12:16</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>6b517c724ffeda006be5e8128110c723</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:29:52</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interviewed</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:13:00</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>a18130f24ffeda006be5e8128110c718</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:29:54</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submmitted to customer</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>2</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:13:14</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>7691bcb24ffeda006be5e8128110c7fb</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:29:55</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Under customer review</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>3</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:12:35</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8c713c724ffeda006be5e8128110c7e5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:29:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Candidate rejected by CV</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>4</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:09:35</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>e1a07cb24ffeda006be5e8128110c7b3</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:29:59</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Candidate rejected by Interview</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>5</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:10:06</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>c4e0bcb24ffeda006be5e8128110c73c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:30:00</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Board</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>6</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:14:11</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>ded138724ffeda006be5e8128110c7cb</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:30:03</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attrition</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>7</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:13:59</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>5bc1bcb24ffeda006be5e8128110c7fd</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:30:05</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dropped hiring process</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>8</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:13:49</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>56b130f24ffeda006be5e8128110c795</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:30:06</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <sequence>9</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:11:55</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>0ff0bcb24ffeda006be5e8128110c7f8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:30:09</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_cits2_human_reso_candidate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 23:09:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d20ea027db4e22001cd85dd5ce961916</sys_id>
+            <sys_mod_count>41</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_choice_x_cits2_human_reso_candidate_state</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-27 17:30:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="AMDOCS job opening requirement">c291b6014f3e9a0000fcbc218110c7af</sc_cat_item>
+        <sc_catalog display_value="Servicios Recursos Humanos">690198784f769a006be5e8128110c732</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 13:24:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9d948e1d4fbe9a0000fcbc218110c779</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Servicios Recursos Humanos.Requisión de personal (AMDOCS)</sys_name>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9d948e1d4fbe9a0000fcbc218110c779</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-14 13:24:43</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_impex_entry">
+    <sys_impex_entry action="INSERT_OR_UPDATE">
+        <default_value/>
+        <field>interview_date_time</field>
+        <map display_value="icalendar.x_cits2_human_reso_interview">f96fad5d4f07520000fcbc218110c756</map>
+        <mapped_field>interview_date_time</mapped_field>
+        <name>dtstart</name>
+        <script/>
+        <sys_class_name>sys_impex_entry</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-26 22:11:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7130399d4f07520000fcbc218110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dtstart</sys_name>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_impex_entry_7130399d4f07520000fcbc218110c7f1</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-26 22:11:36</sys_updated_on>
+        <table>x_cits2_human_reso_interview</table>
+        <type>field</type>
+        <var_name/>
+    </sys_impex_entry>
+</record_update>

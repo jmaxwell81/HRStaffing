@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="ce82924a4ff74e006be5e8128110c738" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cits2_human_reso_hr_staffing_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>TEST</p>]]></message>
+        <name>HRST - set requested for date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onBefore(current, previous) {
+   //This function will be automatically called when this rule is processed.
+  
+  var fecha = gs.GlideDate().getDisplayValue();
+  var fecha_1 = gs.Now();
+	
+ current.requested_fot_date = fecha;
+  
+	gs.addInfoMessage(fecha);
+	gs.addInfoMessage(fecha_1);
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-05-02 17:41:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+        <sys_domain_path>!!!/!!!/!!$/!!#/</sys_domain_path>
+        <sys_id>d1cb67074f8b920000fcbc218110c711</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>HRST - set requested for date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_script_d1cb67074f8b920000fcbc218110c711</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-05-03 13:58:52</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d1cb67074f8b920000fcbc218110c711"/>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Job Titles" max_length="40" name="x_cits2_human_reso_job_titles_amdocs" type="collection">
+        <element display="true" label="Job title" mandatory="true" max_length="200" name="job_title" type="string"/>
+        <element choice="1" label="Type" mandatory="true" max_length="50" name="type" type="choice">
+            <choice>
+                <element label="AMDOCS Staffing" sequence="1" value="AMDOCS Staffing"/>
+                <element label="SAP Staffing" sequence="2" value="SAP Staffing"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+    </element>
+</database>

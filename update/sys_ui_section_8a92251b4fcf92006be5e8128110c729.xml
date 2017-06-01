@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8a92251b4fcf92006be5e8128110c729" sys_domain="ce82924a4ff74e006be5e8128110c738" table="cmn_schedule_page" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>9692251b4fcf92006be5e8128110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>d692251b4fcf92006be5e8128110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>1a92251b4fcf92006be5e8128110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>3</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>5a92251b4fcf92006be5e8128110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>view_type</element>
+            <position>4</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>16926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>56926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_script</element>
+            <position>6</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>96926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>7</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>d6926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>header_html</element>
+            <position>8</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>1a926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>init_function</element>
+            <position>9</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>5a926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>server_script</element>
+            <position>10</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>9a926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>11</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_id>da926d1b4fcf92006be5e8128110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_schedule_page" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8a92251b4fcf92006be5e8128110c729</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmn_schedule_page</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-03 02:19:47</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8a92251b4fcf92006be5e8128110c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmn_schedule_page</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Text Index" source="com.glide.text_index">5f258e26db022200b7495df3ce961954</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_ui_section_8a92251b4fcf92006be5e8128110c729</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-03 02:19:47</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

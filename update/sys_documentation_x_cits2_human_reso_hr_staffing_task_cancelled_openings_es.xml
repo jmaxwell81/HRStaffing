@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cancelled_openings" label="Vacantes canceladas" language="es" table="x_cits2_human_reso_hr_staffing_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cancelled_openings</element>
+            <help/>
+            <hint/>
+            <label>Vacantes canceladas</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <plural>Vacantes canceladas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-05-04 14:37:58</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>95259df34f43d20000fcbc218110c7a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vacantes canceladas</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_documentation_x_cits2_human_reso_hr_staffing_task_cancelled_openings_es</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-05-04 14:37:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

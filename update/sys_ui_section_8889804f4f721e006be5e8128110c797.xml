@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Hiring requirements" section_id="8889804f4f721e006be5e8128110c797" sys_domain="ce82924a4ff74e006be5e8128110c738" table="x_cits2_human_reso_candidate" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>9d4c10474ff21e0000fcbc218110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>medical_exam</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>dd4c10474ff21e0000fcbc218110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>114c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>viable_recruitment</element>
+            <position>3</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>514c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>914c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>socio_economic_study</element>
+            <position>5</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>d14c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>code_of_conduct</element>
+            <position>6</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>154c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compliancy_documents</element>
+            <position>7</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>554c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_criminal_records_letter</element>
+            <position>8</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>954c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>documents_send_to_hr</element>
+            <position>9</position>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 16:18:20</sys_created_on>
+            <sys_id>d54c10474ff21e0000fcbc218110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hiring requirements" display_value="Hiring requirements" name="x_cits2_human_reso_candidate" sys_domain="ce82924a4ff74e006be5e8128110c738" view="Default view">8889804f4f721e006be5e8128110c797</sys_ui_section>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 16:18:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Hiring requirements</caption>
+            <header>false</header>
+            <name>x_cits2_human_reso_candidate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-19 14:56:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8889804f4f721e006be5e8128110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hiring requirements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_ui_section_8889804f4f721e006be5e8128110c797</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-19 14:56:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

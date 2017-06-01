@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="required_language_1" label="Idioma requerido 1" language="es" table="x_cits2_human_reso_hr_staffing_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>required_language_1</element>
+            <help/>
+            <hint/>
+            <label>Idioma requerido 1</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-12 15:26:06</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>9c2dc0384f769a006be5e8128110c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Idioma requerido 1</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_documentation_x_cits2_human_reso_hr_staffing_task_required_language_1_es</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-12 15:26:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

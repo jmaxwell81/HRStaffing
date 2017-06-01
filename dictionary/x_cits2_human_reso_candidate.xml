@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client,live_feed=true,hasWorkflow=true" audit="true" label="Candidate" max_length="40" name="x_cits2_human_reso_candidate" type="collection">
+        <element label="Candidate profile additional comments" max_length="500" name="additional_comments" type="string"/>
+        <element label="Internal process additional comments" max_length="500" name="additional_comments_2" type="string"/>
+        <element label="Comentarios adicionales de cierre" max_length="500" name="additional_comments_3" type="string"/>
+        <element choice="1" label="Edad" max_length="10" name="age" type="choice">
+            <choice>
+                <element label="18" value="18"/>
+                <element label="19" value="19"/>
+                <element label="20" value="20"/>
+                <element label="21" value="21"/>
+                <element label="22" value="22"/>
+                <element label="23" value="23"/>
+                <element label="24" value="24"/>
+                <element label="25" value="25"/>
+                <element label="26" value="26"/>
+                <element label="27" value="27"/>
+                <element label="28" value="28"/>
+                <element label="29" value="29"/>
+                <element label="30" value="30"/>
+                <element label="31" value="31"/>
+                <element label="32" value="32"/>
+                <element label="33" value="33"/>
+                <element label="34" value="34"/>
+                <element label="35" value="35"/>
+                <element label="36" value="36"/>
+                <element label="37" value="37"/>
+                <element label="38" value="38"/>
+                <element label="39" value="39"/>
+                <element label="40" value="40"/>
+                <element label="41" value="41"/>
+                <element label="42" value="42"/>
+                <element label="43" value="43"/>
+                <element label="44" value="44"/>
+                <element label="45" value="45"/>
+                <element label="46" value="46"/>
+                <element label="47" value="47"/>
+                <element label="48" value="48"/>
+                <element label="49" value="49"/>
+                <element label="50" value="50"/>
+                <element label="51" value="51"/>
+                <element label="52" value="52"/>
+                <element label="53" value="53"/>
+                <element label="54" value="54"/>
+                <element label="55" value="55"/>
+                <element label="56" value="56"/>
+                <element label="58" value="58"/>
+                <element label="59" value="59"/>
+                <element label="60" value="60"/>
+            </choice>
+        </element>
+        <element label="Attuid " max_length="40" name="attuid" type="boolean"/>
+        <element label="Cellphone requested" max_length="10" name="cellphone_request" type="boolean"/>
+        <element label="Ciudad de residencia" max_length="32" name="city" reference="u_cities" type="reference"/>
+        <element label="Code of conduct" max_length="10" name="code_of_conduct" type="boolean"/>
+        <element label="Compliancy Documents " max_length="10" name="compliancy_documents" type="boolean"/>
+        <element label="Computer requested" max_length="40" name="computer_requested" type="boolean"/>
+        <element label="Actualmente contratado" max_length="10" name="currently_hired" type="boolean"/>
+        <element label="Current company" max_length="50" name="current_company" type="string"/>
+        <element label="Curriculum vitae" max_length="10" name="curriculum_vitae" type="boolean"/>
+        <element label="Customer approval" max_length="10" name="customer_approval" type="boolean"/>
+        <element label="Customer feedback" max_length="500" name="customer_feedback" type="string"/>
+        <element label="Customer interview date" max_length="15" name="customer_interview_date" type="glide_date"/>
+        <element label="Customer send date" max_length="15" name="customer_send_date" type="glide_date"/>
+        <element label="Fecha de disponibilidad" max_length="15" name="disponibility_date" type="glide_date"/>
+        <element label="Documents sended to Personnel Adminitration" max_length="10" name="documents_send_to_hr" type="boolean"/>
+        <element label="Correo electrónico" max_length="100" name="email" type="string"/>
+        <element label="English interview test" max_length="10" name="english_interview_test" type="boolean"/>
+        <element label="English level" max_length="20" name="english_level" type="string"/>
+        <element label="Nombre(s)" max_length="51" name="first_name" type="string"/>
+        <element choice="1" label="Género" max_length="20" name="gender" type="choice">
+            <choice>
+                <element label="Hombre" language="es" sequence="1" value="Male"/>
+                <element label="Male" sequence="1" value="Male"/>
+                <element label="Female" sequence="2" value="Female"/>
+                <element label="Mujer" language="es" sequence="2" value="Female"/>
+            </choice>
+        </element>
+        <element label="Hiring date" max_length="15" name="hiring_date" type="glide_date"/>
+        <element label="Teléfono (casa)" max_length="30" name="home_phone" type="string"/>
+        <element label="Internal technical feedback" max_length="500" name="internal_technical_feedback" type="string"/>
+        <element label="Internal technical test" max_length="10" name="internal_technical_test" type="boolean"/>
+        <element label="Interviewed by customer" max_length="10" name="interviewed_by_customer" type="boolean"/>
+        <element label="Vacante" max_length="32" name="job_opening" reference="x_cits2_human_reso_hr_staffing_task" type="reference"/>
+        <element label="Last contact date" max_length="15" name="last_contact_date" type="glide_date"/>
+        <element label="Apellido(s)" max_length="50" name="last_name" type="string"/>
+        <element label="Letter of no criminal record" max_length="10" name="letter_of_no_criminal_record" type="boolean"/>
+        <element label="Medical exam" max_length="10" name="medical_exam" type="boolean"/>
+        <element label="Teléfono celular" max_length="30" name="mobile_phone" type="string"/>
+        <element label="Name" max_length="151" name="name" type="string"/>
+        <element label="No criminal records letter" max_length="10" name="no_criminal_records_letter" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Online english test" max_length="10" name="online_english_test" type="boolean"/>
+        <element label="Passport" max_length="10" name="passport" type="boolean"/>
+        <element label="Fotografía" max_length="10" name="photo" type="user_image"/>
+        <element label="Psychometric tests" max_length="10" name="psychometric_tests" type="boolean"/>
+        <element label="Requested gross salary" max_length="10" name="requested_salary" type="currency"/>
+        <element label="Screening HR" max_length="10" name="screening_hr" type="boolean"/>
+        <element label="Sended to customer" max_length="10" name="send_to_customer" type="boolean"/>
+        <element choice="1" label="Candidate seniority" max_length="40" name="seniority" type="choice">
+            <choice>
+                <element label="Junior" sequence="1" value="Junior"/>
+                <element label="Senior" sequence="2" value="Senior"/>
+                <element label="Senior+" sequence="3" value="Senior+"/>
+            </choice>
+        </element>
+        <element label="Skype account" max_length="50" name="skype_account" type="string"/>
+        <element label="Socio-economic study" max_length="10" name="socio_economic_study" type="boolean"/>
+        <element choice="1" label="Fuente de reclutamiento" max_length="50" name="source" type="choice">
+            <choice>
+                <element label="OCC Mundial" sequence="1" value="OCC Mundial"/>
+                <element label="Linked In" sequence="2" value="Linked In"/>
+                <element label="Other" sequence="20" value="Other"/>
+            </choice>
+        </element>
+        <element choice="3" default="0" label="State" max_length="20" name="state" type="choice">
+            <choice>
+                <element label="Interview (pending)" sequence="0" value="0"/>
+                <element label="Interviewed" sequence="1" value="1"/>
+                <element label="Submmitted to customer" sequence="2" value="2"/>
+                <element label="Under customer review" sequence="3" value="3"/>
+                <element label="Candidate rejected by CV" sequence="4" value="4"/>
+                <element label="Candidate rejected by Interview" sequence="5" value="5"/>
+                <element label="On Board" sequence="6" value="6"/>
+                <element label="Attrition" sequence="7" value="7"/>
+                <element label="Dropped hiring process" sequence="8" value="8"/>
+                <element label="Other" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element label="State / province" max_length="40" name="state_province" type="string"/>
+        <element label="Experiencia en TELCO" max_length="10" name="telco_experience" type="boolean"/>
+        <element label="Telephone headphones requested" max_length="40" name="telephone_headphones_requested" type="boolean"/>
+        <element label="Viable assignment" max_length="10" name="viable_assignment" type="boolean"/>
+        <element label="Viable for customer" max_length="10" name="viable_for_customer" type="boolean"/>
+        <element attributes="critical" label="Viable recruitment" max_length="10" name="viable_recruitment" type="boolean"/>
+        <element label="VISA" max_length="10" name="visa" type="boolean"/>
+        <index name="index">
+            <element name="city"/>
+        </index>
+        <index name="index2">
+            <element name="job_opening"/>
+        </index>
+    </element>
+</database>

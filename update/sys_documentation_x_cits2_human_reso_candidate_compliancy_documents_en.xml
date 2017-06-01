@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="compliancy_documents" label="Compliancy Documents " language="en" table="x_cits2_human_reso_candidate">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>compliancy_documents</element>
+            <help/>
+            <hint/>
+            <label>Compliancy Documents </label>
+            <language>en</language>
+            <name>x_cits2_human_reso_candidate</name>
+            <plural>Compliancy Documents s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-18 19:47:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8392c03a4fbeda006be5e8128110c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Compliancy Documents</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_documentation_x_cits2_human_reso_candidate_compliancy_documents_en</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-18 19:47:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

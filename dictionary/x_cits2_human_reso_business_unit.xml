@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Business Unit" max_length="40" name="x_cits2_human_reso_business_unit" type="collection">
+        <element label="Business unit" max_length="150" name="business_unit" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="AMDOCS Staffing" sequence="1" value="AMDOCS Staffing"/>
+                <element label="SAP Staffing" sequence="2" value="SAP Staffing"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+    </element>
+</database>

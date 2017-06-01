@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="hiring_manager" label="Manager de contratación" language="es" table="x_cits2_human_reso_hr_staffing_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hiring_manager</element>
+            <help/>
+            <hint/>
+            <label>Manager de contratación</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-28 21:25:46</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>58f8b3b14f0f520000fcbc218110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Manager de contratación</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_documentation_x_cits2_human_reso_hr_staffing_task_hiring_manager_es</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-28 21:25:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

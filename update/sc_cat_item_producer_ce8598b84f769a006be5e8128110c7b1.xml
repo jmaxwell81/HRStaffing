@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>true</can_cancel>
+        <category display_value="Staffing">f9a390b84f769a006be5e8128110c7e5</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Requisión de personal (SAP)</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>200</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ce8598b84f769a006be5e8128110c7b1&amp;sysparm_preview=true", "summary");</preview>
+        <price>0.00</price>
+        <recurring_frequency/>
+        <recurring_price>0.00</recurring_price>
+        <roles/>
+        <sc_catalogs>690198784f769a006be5e8128110c732</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[var usuario = gs.getUserID();
+current.contact_type = 'self-service';
+current.requested_by = usuario;
+
+var descripcion_breve = "Consultor " + producer.main_module + " " + producer.consultant_level + " para " + producer.project_area_description;
+
+current.short_description = descripcion_breve;
+
+var descripcion = "Información de la posición a cubrir: \n\n"
+	descripcion += "- Módulo: " + producer.main_module + "\n";
+    descripcion += "- Sub-módulos: " + producer.submodules + "\n";
+    descripcion += "- Nivel de consultor: " + producer.consultant_level + "\n";
+    descripcion += "- Experiencia necesaria: " + producer.required_experience + "\n";
+    descripcion += "- Conocimientos necesarios: " + producer.required_knowledge + "\n";
+    descripcion += "- Habilidades necesarias: " + producer.required_skilss + "\n";
+    descripcion += "- Proyecto/Área: " + producer.project_area_description + "\n";
+    descripcion += "- Cobertura de busqueda: " + producer.search_scope + "\n";
+    descripcion += "- Número de vacantes: " + producer.number_of_openings + "\n";
+    descripcion += "- Disponibilidad para vajar: " + producer.available_to_travel + "\n";
+    descripcion += "- Forma de trabajo: " + producer.work_location_type + "\n";
+    descripcion += "- Localidad de trabajo: " + producer.work_location + "\n";
+
+current.description = descripcion;]]></script>
+        <short_description>Requisición de personal</short_description>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-12 16:02:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ce8598b84f769a006be5e8128110c7b1</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Requisión de personal (SAP)</sys_name>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sc_cat_item_producer_ce8598b84f769a006be5e8128110c7b1</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-18 15:47:02</sys_updated_on>
+        <table_name>x_cits2_human_reso_hr_staffing_task</table_name>
+        <template display_value="Template  HR Req. de personal (SAP)">317f71994fbe9a0000fcbc218110c751</template>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce8598b84f769a006be5e8128110c7b1"/>
+    <fx_price action="delete_multiple" query="id=ce8598b84f769a006be5e8128110c7b1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="MXN">MXN</currency>
+        <field>price</field>
+        <id>ce8598b84f769a006be5e8128110c7b1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-12 16:02:45</sys_created_on>
+        <sys_id>fc9518b84f769a006be5e8128110c743</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-12 16:02:45</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="MXN">MXN</currency>
+        <field>recurring_price</field>
+        <id>ce8598b84f769a006be5e8128110c7b1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-12 16:02:45</sys_created_on>
+        <sys_id>309518b84f769a006be5e8128110c744</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-12 16:02:45</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>15822</size_bytes>
+        <size_compressed>2407</size_compressed>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:01:18</sys_created_on>
+        <sys_id>f6317acd4ffa9a0000fcbc218110c7e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-13 22:01:18</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>ce8598b84f769a006be5e8128110c7b1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="f6317acd4ffa9a0000fcbc218110c7e0">f6317acd4ffa9a0000fcbc218110c7e0</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:01:18</sys_created_on>
+        <sys_id>3a317acd4ffa9a0000fcbc218110c7e0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>7Zt7WFPnHceP2vpYOtTOddWuXbOoU6bhJOEeQxQTFNQwitgSq9WQHCCTXEwCBFdbxV7W1dtq7TbrOlTQiiIgotTLg4jK/X6/g9zJ/X5PdgKogQSfbuuf5zzn5PL+3u/3815/ef/Jl5ERmz093vQAAMAzPIwSBb+vdTwL5sGvXjuzfOC3V3hhNAEAvLrE8cwBzpxdCgBzglhkcmRkAlfIFSRweahwMhnF43PjWIkQAIg6sk/mbZ1LBzb3jvwudH7QLnrB0huBL9E9Q49Ae7ce2VLi9bpwT+y5lv3606/dbK5LLmz+VX9bQxTbk/puHcqXYt9AJpMjDnt6rAoh1333W66xeNFH90Jp/I9CVrO91t1bvOg3/0wsFL9ejHrztYutGYzqlae+smwZWDYn8p01FV+X9I7SaoN+aZj7Xia0ZnHlhvSra1+OnVdXnZa5IRro9sfTFnunj3zw4Txh/lDAIQ6YORJCnJtvXBiw7u69V9PLV9uPV0i9DlHeOrrN36Jek8Oal049lDNcIBX8w/RStfZM6tzWzYsPKDtGl2neftB8qisvpbORfP9IYWtGUcfuBb5pebYmxWDZ5ofHPo/LeuWTrLuqD3N11tK/Xzr9VXXnEVN3pyjf6NkTsv3g8KaDgQAQSGNFxwhjqNsIDC7bm87kxkLeIjYPcFzE9SIenbEPEqJioXgWJxgtv1OERrGYwej3/ahYKo8MJbDCDvCh7QciohkH9jGCmOj1JA+iiAAbsCEhHSViJ3IEBFEwesKXAH92FINo1EQV4b5gdIgjgIqhRqLIXD6E8vP2xzBwOBwqIMgb5xfog/dbi8JjcX4gNgjEYTFYHAGHJeCxqKkLTfKAX4l8ZhwhirJpCgd/C0YnCIU8AgimpKR4p/h4c/nxIC4oKAjE4kE8HgPXwAhSOUK6CMMRLJ80eepDgQQMPosnZHE5KMd3eiw3SRiMRnugnK6pfrF5z0AcwdTYwaMIiug8EOeNBd2JmIxnGl4SP3GiaUwGCCVCbIgjFMA6nFsd7+kyd498Fp4VDLeWSn1xe9lst0qBMDRZ+GKlIDqVB4FRkICbxGdAoclwV5a7sxKy4uLcOzkis7YdErFmkTkikzLScx0R7iuBzIfoQi4/mstNJE2usueZAk4UjlWFWv0+i8Pkpgi8iOBMiTs3iAI/JFjpj8H6YnA+0Th/gl8gwccHg/UjYLFOJpM1Z3hQuUxWXKqLRwAsJfgFOHs41ZzpAe8fJl1I/0kuznWdfJgMQhyXz6YLSSw2PR4CeZx4Ivi80Knms1VFIHMTuXy4WTCUCLordquCM3LkZEImMabpnALTO0ilEsI5AiGdw4DCKSS4wJvFYhJ8cQw/fxzdB+OP9/XH4PG+cRi6Hy4Q48vA4QOY/nj/OCxjos/T5S7WFC4jybHNpqyZ/6W1k9zF+o98Fpwi6Yn/J8KNjQsqjCWAV2kqadpGmUhe26H900ufBhJZE8mMR+cLIMdWDUY/3atoF4FDM7HlCXSGIw2SGBMrmkkEp5XOLmP9rxPoIp+dkZIAcV60E51qzW4i4MYJU+h8KCQeHumfkiTcyVzGG5wc8BnTA7rOz9M5d51PoiMbOtYCDKBPjDaOCLqUzawf45jTxKSJWAAeC1/wbybWMRou4ZlS2oultBdIn4d2cFhCR3pwV+ykcqTsycSxHT5dQI6uzSyaWTuSJYISYygseEcIHG3w9Z3SzAy4FdJmE9JchJPT5HQGmDxggFMnDPhwAz473bhbWD//hUAQCAJBIAgEgSAQBIJAEAgCQSAIBIEgEASCQBAIAkEgCASBIBAEgkAQCAJBIAgEgSAQBIJAEAgCQSAIBIEgEASCQBAIAkEgCASB/MwQj+f/F4Q4zGB0Cno96X7SNTkAAChGWBQVAL7wAICjngBg3QoAh9cDwMFkABg7CgDEIQBYVp3bq30DAOYBkduiQ8XpaHH6cvG5FeJzK8Xnfy8+v0pyYbXkgpfkwh8kGWskGRhJprckE5RcxEou4iWXfKSXfKU/+EsvB0gvB0ovB0mz4JsgzVonvUKUXgmWXiXJrq6XZW+QZYfIsjfKssmyaxTZtVBZziZZTpg8N1yeu0Wet1Wet01+nSq/HiHPj5Lf2C6/Ea0o2KEoeE9xM0Zxk6a4tVNx6wNF4S5F4W7lj3uVt+nK27HKOwzlHabyDqS8C99xynsJyiKWquhPqvuJqmKOqpiresBTPdivKuGrSgSqEqH6YbL6YYr6kUj9KFX9+ID68Z/VpQfVpR+ryz5Rlx3SlB/WlKdpyo9oKj7VVHymqfxcU/mFpuovmqovNdV/1dYc1dYc09Ye19ae0Nad1Nb9TVv3tbb+lLb+G23DaV3Dt7qGM7rG73SNZ3VN/9I1fa9r/reuOV3XfE7fcl7fckHfmqFvzdS3XdS3XdK3X9a3Z+k7rug7rho6sw2d1wxdOYauXEP3dUNPvqHnhqGnwNB709h7y9hXaOy/bey/Y+y/axyA7yLj4H3jYLFx6IFpqMQ0/NA0/Mg0/Ng0UmYaLTeNVpjGKk1jVaaxavN4jXm81iyuM4vrzZIGs6TRLG0yS5vNshazrNUib7PI2y3yDoui06Losii7Lcoei6rXouqzqAes6kGrZsiqGbZqR6zaUat2zKqD73GrTmzVS6x6qdUgsxnkNqPCZlTajCqbSW0zaWxmrc2ss1n0NovBZjHarSa71Wy3Wew2q91us9vtpaWlZWVl5eXlFRUVlZWVVVVV1dXVNTU1tbW1dXV19fX1DQ0NjY2NTU1Nzc3NLS0tra2tbW1t7e3tHR0dnZ2dXV1d3d3dPT09vb29fX19/f39T548GRgYGBwcHBoaGh4eHhkZGR0dHRsbGx8fF4vFEolEKpXKZDK5XK5QKJRKpUqlUqvVGo1Gq9XqdDq9Xm8wGIxGo8lkMpvNFovFarXabI6m0re9uxHeN9+HU0KiRR2Sk2sWzg35xYY9C/bx0hVdcx6tLPRY/davX05b0pe7YO2KFfJdC76tlSQ/ICxWR186yF712cb+eI2/bFV3U56fz95zC2GfJSnfZDSmQ1du3x6ds3T+dc8gaVMK4WTOOyfUATRp0c0fbp09eqz7RExSAbuXsbNzR/7Kwrfv1yR8LNkIVeAGfpwfMf9GdyYtrTgkyN6duntsxRse9oqDwJ7jmphFsYJhx5+Fw0MjKNc27k37DznctlnOPQAA</data>
+        <length>3196</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="f6317acd4ffa9a0000fcbc218110c7e0">f6317acd4ffa9a0000fcbc218110c7e0</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:01:18</sys_created_on>
+        <sys_id>7a317acd4ffa9a0000fcbc218110c7e0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>15822</size_bytes>
+        <size_compressed>2407</size_compressed>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:01:26</sys_created_on>
+        <sys_id>24417acd4ffa9a0000fcbc218110c7e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-13 22:01:26</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>ce8598b84f769a006be5e8128110c7b1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="24417acd4ffa9a0000fcbc218110c7e1">24417acd4ffa9a0000fcbc218110c7e1</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:01:26</sys_created_on>
+        <sys_id>64417acd4ffa9a0000fcbc218110c7e1</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>7Zt7WFPnHceP2vpYOtTOddWuXbOoU6bhJOEeQxQTFNQwitgSq9WQHCCTXEwCBFdbxV7W1dtq7TbrOlTQiiIgotTLg4jK/X6/g9zJ/X5PdgKogQSfbuuf5zzn5PL+3u/3815/ef/Jl5ERmz093vQAAMAzPIwSBb+vdTwL5sGvXjuzfOC3V3hhNAEAvLrE8cwBzpxdCgBzglhkcmRkAlfIFSRweahwMhnF43PjWIkQAIg6sk/mbZ1LBzb3jvwudH7QLnrB0huBL9E9Q49Ae7ce2VLi9bpwT+y5lv3606/dbK5LLmz+VX9bQxTbk/puHcqXYt9AJpMjDnt6rAoh1333W66xeNFH90Jp/I9CVrO91t1bvOg3/0wsFL9ejHrztYutGYzqlae+smwZWDYn8p01FV+X9I7SaoN+aZj7Xia0ZnHlhvSra1+OnVdXnZa5IRro9sfTFnunj3zw4Txh/lDAIQ6YORJCnJtvXBiw7u69V9PLV9uPV0i9DlHeOrrN36Jek8Oal049lDNcIBX8w/RStfZM6tzWzYsPKDtGl2neftB8qisvpbORfP9IYWtGUcfuBb5pebYmxWDZ5ofHPo/LeuWTrLuqD3N11tK/Xzr9VXXnEVN3pyjf6NkTsv3g8KaDgQAQSGNFxwhjqNsIDC7bm87kxkLeIjYPcFzE9SIenbEPEqJioXgWJxgtv1OERrGYwej3/ahYKo8MJbDCDvCh7QciohkH9jGCmOj1JA+iiAAbsCEhHSViJ3IEBFEwesKXAH92FINo1EQV4b5gdIgjgIqhRqLIXD6E8vP2xzBwOBwqIMgb5xfog/dbi8JjcX4gNgjEYTFYHAGHJeCxqKkLTfKAX4l8ZhwhirJpCgd/C0YnCIU8AgimpKR4p/h4c/nxIC4oKAjE4kE8HgPXwAhSOUK6CMMRLJ80eepDgQQMPosnZHE5KMd3eiw3SRiMRnugnK6pfrF5z0AcwdTYwaMIiug8EOeNBd2JmIxnGl4SP3GiaUwGCCVCbIgjFMA6nFsd7+kyd498Fp4VDLeWSn1xe9lst0qBMDRZ+GKlIDqVB4FRkICbxGdAoclwV5a7sxKy4uLcOzkis7YdErFmkTkikzLScx0R7iuBzIfoQi4/mstNJE2usueZAk4UjlWFWv0+i8Pkpgi8iOBMiTs3iAI/JFjpj8H6YnA+0Th/gl8gwccHg/UjYLFOJpM1Z3hQuUxWXKqLRwAsJfgFOHs41ZzpAe8fJl1I/0kuznWdfJgMQhyXz6YLSSw2PR4CeZx4Ivi80Knms1VFIHMTuXy4WTCUCLordquCM3LkZEImMabpnALTO0ilEsI5AiGdw4DCKSS4wJvFYhJ8cQw/fxzdB+OP9/XH4PG+cRi6Hy4Q48vA4QOY/nj/OCxjos/T5S7WFC4jybHNpqyZ/6W1k9zF+o98Fpwi6Yn/J8KNjQsqjCWAV2kqadpGmUhe26H900ufBhJZE8mMR+cLIMdWDUY/3atoF4FDM7HlCXSGIw2SGBMrmkkEp5XOLmP9rxPoIp+dkZIAcV60E51qzW4i4MYJU+h8KCQeHumfkiTcyVzGG5wc8BnTA7rOz9M5d51PoiMbOtYCDKBPjDaOCLqUzawf45jTxKSJWAAeC1/wbybWMRou4ZlS2oultBdIn4d2cFhCR3pwV+ykcqTsycSxHT5dQI6uzSyaWTuSJYISYygseEcIHG3w9Z3SzAy4FdJmE9JchJPT5HQGmDxggFMnDPhwAz473bhbWD//hUAQCAJBIAgEgSAQBIJAEAgCQSAIBIEgEASCQBAIAkEgCASBIBAEgkAQCAJBIAgEgSAQBIJAEAgCQSAIBIEgEASCQBAIAkEgCASB/MwQj+f/F4Q4zGB0Cno96X7SNTkAAChGWBQVAL7wAICjngBg3QoAh9cDwMFkABg7CgDEIQBYVp3bq30DAOYBkduiQ8XpaHH6cvG5FeJzK8Xnfy8+v0pyYbXkgpfkwh8kGWskGRhJprckE5RcxEou4iWXfKSXfKU/+EsvB0gvB0ovB0mz4JsgzVonvUKUXgmWXiXJrq6XZW+QZYfIsjfKssmyaxTZtVBZziZZTpg8N1yeu0Wet1Wet01+nSq/HiHPj5Lf2C6/Ea0o2KEoeE9xM0Zxk6a4tVNx6wNF4S5F4W7lj3uVt+nK27HKOwzlHabyDqS8C99xynsJyiKWquhPqvuJqmKOqpiresBTPdivKuGrSgSqEqH6YbL6YYr6kUj9KFX9+ID68Z/VpQfVpR+ryz5Rlx3SlB/WlKdpyo9oKj7VVHymqfxcU/mFpuovmqovNdV/1dYc1dYc09Ye19ae0Nad1Nb9TVv3tbb+lLb+G23DaV3Dt7qGM7rG73SNZ3VN/9I1fa9r/reuOV3XfE7fcl7fckHfmqFvzdS3XdS3XdK3X9a3Z+k7rug7rho6sw2d1wxdOYauXEP3dUNPvqHnhqGnwNB709h7y9hXaOy/bey/Y+y/axyA7yLj4H3jYLFx6IFpqMQ0/NA0/Mg0/Ng0UmYaLTeNVpjGKk1jVaaxavN4jXm81iyuM4vrzZIGs6TRLG0yS5vNshazrNUib7PI2y3yDoui06Losii7Lcoei6rXouqzqAes6kGrZsiqGbZqR6zaUat2zKqD73GrTmzVS6x6qdUgsxnkNqPCZlTajCqbSW0zaWxmrc2ss1n0NovBZjHarSa71Wy3Wew2q91us9vtpaWlZWVl5eXlFRUVlZWVVVVV1dXVNTU1tbW1dXV19fX1DQ0NjY2NTU1Nzc3NLS0tra2tbW1t7e3tHR0dnZ2dXV1d3d3dPT09vb29fX19/f39T548GRgYGBwcHBoaGh4eHhkZGR0dHRsbGx8fF4vFEolEKpXKZDK5XK5QKJRKpUqlUqvVGo1Gq9XqdDq9Xm8wGIxGo8lkMpvNFovFarXabI6m0re9uxHeN9+HU0KiRR2Sk2sWzg35xYY9C/bx0hVdcx6tLPRY/davX05b0pe7YO2KFfJdC76tlSQ/ICxWR186yF712cb+eI2/bFV3U56fz95zC2GfJSnfZDSmQ1du3x6ds3T+dc8gaVMK4WTOOyfUATRp0c0fbp09eqz7RExSAbuXsbNzR/7Kwrfv1yR8LNkIVeAGfpwfMf9GdyYtrTgkyN6duntsxRse9oqDwJ7jmphFsYJhx5+Fw0MjKNc27k37DznctlnOPQAA</data>
+        <length>3196</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="24417acd4ffa9a0000fcbc218110c7e1">24417acd4ffa9a0000fcbc218110c7e1</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:01:26</sys_created_on>
+        <sys_id>a4417acd4ffa9a0000fcbc218110c7e1</sys_id>
+    </sys_attachment_doc>
+</record_update>

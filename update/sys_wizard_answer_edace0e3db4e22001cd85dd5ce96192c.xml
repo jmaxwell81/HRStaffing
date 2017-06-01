@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Human Resources Table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Human Resources Table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d0034a62db022200b7495df3ce961981</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-09-29 20:10:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>edace0e3db4e22001cd85dd5ce96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources Table</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_wizard_answer_edace0e3db4e22001cd85dd5ce96192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-09-29 20:10:56</sys_updated_on>
+        <table/>
+        <target_url>x_cits2_human_reso_human_resources_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

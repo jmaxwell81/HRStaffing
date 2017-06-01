@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="consultant_level" table="x_cits2_human_reso_hr_staffing_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Architect</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:02:26</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>2980182c4ff29a0000fcbc218110c7ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:02:26</sys_updated_on>
+            <value>Architect</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arquitecto</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:02:33</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>ea90182c4ff29a0000fcbc218110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:02:33</sys_updated_on>
+            <value>Architect</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lider de práctica</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:04:06</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d5f094e84ff29a0000fcbc218110c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:04:06</sys_updated_on>
+            <value>Leader</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Practice leader</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:03:57</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8be0142c4ff29a0000fcbc218110c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:03:57</sys_updated_on>
+            <value>Leader</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Manager</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:04:33</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>f301d02c4ff29a0000fcbc218110c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:04:33</sys_updated_on>
+            <value>Project Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Manager</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:04:29</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>fe01182c4ff29a0000fcbc218110c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:04:29</sys_updated_on>
+            <value>Project Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior Project Manager</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:04:54</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8521d02c4ff29a0000fcbc218110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:04:54</sys_updated_on>
+            <value>Senior Project Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior Project Manager</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:04:51</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>9421182c4ff29a0000fcbc218110c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:04:51</sys_updated_on>
+            <value>Senior Project Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior 1</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:05:13</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>6931d02c4ff29a0000fcbc218110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:05:13</sys_updated_on>
+            <value>Senior 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior 1</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:05:10</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>b831182c4ff29a0000fcbc218110c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:05:10</sys_updated_on>
+            <value>Senior 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior 2</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:05:38</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>6741d82c4ff29a0000fcbc218110c718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:05:38</sys_updated_on>
+            <value>Senior 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior 2</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:05:17</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>ba31502c4ff29a0000fcbc218110c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:05:17</sys_updated_on>
+            <value>Senior 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Estándar</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:06:02</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>6961d82c4ff29a0000fcbc218110c719</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:06:02</sys_updated_on>
+            <value>Standard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:05:55</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>3b51982c4ff29a0000fcbc218110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:05:55</sys_updated_on>
+            <value>Standard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>7</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:06:25</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>437114e84ff29a0000fcbc218110c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:06:25</sys_updated_on>
+            <value>Junior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>7</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:06:21</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8271182c4ff29a0000fcbc218110c7cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:06:21</sys_updated_on>
+            <value>Junior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analist</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>8</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:06:39</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>2681d82c4ff29a0000fcbc218110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:06:39</sys_updated_on>
+            <value>Analist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analista</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>8</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:06:45</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>4491182c4ff29a0000fcbc218110c7a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:06:45</sys_updated_on>
+            <value>Analist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Becario</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>9</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:07:33</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>73b1982c4ff29a0000fcbc218110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:07:33</sys_updated_on>
+            <value>Trainee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consultant_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trainee</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>9</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:07:39</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>81c114e84ff29a0000fcbc218110c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:07:39</sys_updated_on>
+            <value>Trainee</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>consultant_level</element>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:02:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d3ace0e3db4e22001cd85dd5ce9619a5</sys_id>
+            <sys_mod_count>19</sys_mod_count>
+            <sys_name>consultant_level</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_choice_x_cits2_human_reso_hr_staffing_task_consultant_level</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:07:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

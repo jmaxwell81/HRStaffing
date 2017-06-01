@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Carga ciudades 2" max_length="40" name="x_cits2_human_reso_carga_ciudades_2" type="collection">
+        <element attributes="import_attribute_name=A" label="A" max_length="40" name="u_a" type="string"/>
+        <element attributes="import_attribute_name=Ciudad" label="Ciudad" max_length="40" name="u_ciudad" type="string"/>
+        <element attributes="import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Estado" label="Estado" max_length="40" name="u_estado" type="string"/>
+    </element>
+</database>

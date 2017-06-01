@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_impex_map">
+    <sys_impex_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent/>
+        <apply_defaults>true</apply_defaults>
+        <coalesce/>
+        <condition_script/>
+        <data_option>insert_update</data_option>
+        <data_source/>
+        <description>Calendar Map for interview</description>
+        <external_names/>
+        <name>icalendar.x_cits2_human_reso_interview</name>
+        <order>100</order>
+        <parent/>
+        <script/>
+        <sys_class_name>sys_impex_map</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-26 22:08:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f96fad5d4f07520000fcbc218110c756</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>icalendar.x_cits2_human_reso_interview</sys_name>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_impex_map_f96fad5d4f07520000fcbc218110c756</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-26 22:20:09</sys_updated_on>
+        <table>x_cits2_human_reso_interview</table>
+        <type>icalendar</type>
+    </sys_impex_map>
+</record_update>

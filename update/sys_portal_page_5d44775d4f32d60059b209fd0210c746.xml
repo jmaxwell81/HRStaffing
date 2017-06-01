@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-06-01 19:49:21">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>x_cits2_human_reso.Usuario Staffing,x_cits2_human_reso.Usuario solicitante</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-14 21:33:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+        <sys_domain_path/>
+        <sys_id>5d44775d4f32d60059b209fd0210c746</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Servicios Recursos Humanos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_portal_page_5d44775d4f32d60059b209fd0210c746</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-28 02:10:14</sys_updated_on>
+        <title>Servicios Recursos Humanos</title>
+        <user/>
+        <view>catalogo_recursos_humanos</view>
+    </sys_portal_page>
+</record_update>

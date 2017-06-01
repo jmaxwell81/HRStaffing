@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="required_language_1_level" table="x_cits2_human_reso_hr_staffing_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Basic</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:16:10</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>caa31c6c4ff29a0000fcbc218110c75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:16:10</sys_updated_on>
+            <value>Basic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Básico</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:16:16</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>afb31c6c4ff29a0000fcbc218110c75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:16:16</sys_updated_on>
+            <value>Basic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intermediate</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:16:41</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>2dd3d86c4ff29a0000fcbc218110c746</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:52</sys_updated_on>
+            <value>Intermediate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intermedio</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:16:48</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d3d31c6c4ff29a0000fcbc218110c739</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:55</sys_updated_on>
+            <value>Intermediate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Advance</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:17:02</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>72e3d86c4ff29a0000fcbc218110c748</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:02</sys_updated_on>
+            <value>Advance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avanzado</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:17:19</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8bf31c6c4ff29a0000fcbc218110c7c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:19</sys_updated_on>
+            <value>Advance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Native</label>
+            <language>en</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:17:37</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8f04986c4ff29a0000fcbc218110c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:37</sys_updated_on>
+            <value>Native</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>required_language_1_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nativo</label>
+            <language>es</language>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:17:43</sys_created_on>
+            <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+            <sys_domain_path/>
+            <sys_id>3c141c6c4ff29a0000fcbc218110c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:43</sys_updated_on>
+            <value>Native</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>required_language_1_level</element>
+            <name>x_cits2_human_reso_hr_staffing_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+            <sys_created_on>2016-04-11 21:16:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>57ace0e3db4e22001cd85dd5ce9619c2</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>required_language_1_level</sys_name>
+            <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+            <sys_update_name>sys_choice_x_cits2_human_reso_hr_staffing_task_required_language_1_level</sys_update_name>
+            <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+            <sys_updated_on>2016-04-11 21:17:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

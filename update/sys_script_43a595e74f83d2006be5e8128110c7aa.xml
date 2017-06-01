@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="ce82924a4ff74e006be5e8128110c738" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cits2_human_reso_hr_staffing_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>conteo de candidatos identificados</p>]]></message>
+        <name>HRST - Count open job openings</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onBefore(current, previous) {
+   //This function will be automatically called when this rule is processed.
+ 
+	 var contador_posiciones_abiertas = 0;
+	 var posiciones_requeridas = current.required_job_openings;
+	 var candidatos_contratados =  current.hired_candidates;
+     var posiciones_canceladas = current.cancelled_openings;
+	 var posiciones_freeze =  current.freezed_openings;
+	
+    contador_posiciones_abiertas =  posiciones_requeridas - candidatos_contratados - posiciones_canceladas - posiciones_freeze; 
+	current.open_job_openings = contador_posiciones_abiertas;
+	
+	gs.addInfoMessage("cuenta posiciones abiertas: " + contador_posiciones_abiertas);
+	
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-05-03 20:01:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+        <sys_domain_path>!!!/!!!/!!$/!!#/</sys_domain_path>
+        <sys_id>43a595e74f83d2006be5e8128110c7aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HRST - Count open job openings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_script_43a595e74f83d2006be5e8128110c7aa</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-05-03 20:01:47</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=43a595e74f83d2006be5e8128110c7aa"/>
+</record_update>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client,live_feed=true,hasWorkflow=true" audit="true" extends="task" label="HR Staffing Task" max_length="40" name="x_cits2_human_reso_hr_staffing_task" sizeclass="2" type="collection">
+        <element label="Additional comments" max_length="1000" name="additional_comments" type="string"/>
+        <element label="Habilidades adicionales (no requeridas)" max_length="2000" name="advantages" type="string"/>
+        <element label="Available to travel" max_length="60" name="available_to_travel" type="boolean"/>
+        <element label="Business unit" max_length="32" name="business_unit" reference="x_cits2_human_reso_business_unit" type="reference"/>
+        <element label="Vacantes canceladas" max_length="40" name="cancelled_openings" type="integer"/>
+        <element label="CBU/SP" max_length="100" name="cbu_sp" type="string"/>
+        <element choice="1" label="Contract type" max_length="50" name="contract_type" type="choice">
+            <choice>
+                <element label="Nómina" language="es" sequence="1" value="Payroll"/>
+                <element label="Payroll" sequence="1" value="Payroll"/>
+                <element label="Proveedor" language="es" sequence="2" value="Supplier"/>
+                <element label="Supplier" sequence="2" value="Supplier"/>
+                <element label="Other" sequence="3" value="Other"/>
+                <element label="Otro" language="es" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element label="Número posición (cliente)" max_length="12" name="customer_request_id" type="string"/>
+        <element label="Freezed openings" max_length="40" name="freezed_openings" type="integer"/>
+        <element choice="1" label="Gender preference" max_length="50" name="gender_preference" type="choice">
+            <choice>
+                <element label="Hombre" language="es" sequence="0" value="Male"/>
+                <element label="Male" sequence="1" value="Male"/>
+                <element label="Mujer" language="es" sequence="1" value="Female"/>
+                <element label="Female" sequence="2" value="Female"/>
+                <element label="Indistinto" language="es" sequence="2" value="Both"/>
+                <element label="Both" sequence="3" value="Both"/>
+            </choice>
+        </element>
+        <element label="Hired candidates" max_length="40" name="hired_candidates" type="integer"/>
+        <element label="Hiring manager" max_length="32" name="hiring_manager" reference="x_cits2_human_reso_hiring_managers" type="reference"/>
+        <element label="Identified candidates" max_length="40" name="identified_candidates" type="integer"/>
+        <element label="Actividades principales" max_length="2000" name="job_opening_main_activities" type="string"/>
+        <element label="Job profile" max_length="200" name="job_profile" type="string"/>
+        <element label="Título de vacante" max_length="32" name="job_title" reference="x_cits2_human_reso_job_titles_amdocs" type="reference"/>
+        <element choice="3" default="1" label="Número de vacantes" max_length="10" name="number_of_openings" type="integer">
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+                <element label="6" sequence="6" value="6"/>
+                <element label="7" sequence="7" value="7"/>
+                <element label="8" sequence="8" value="8"/>
+                <element label="9" sequence="9" value="9"/>
+                <element label="10" sequence="10" value="10"/>
+                <element label="11" sequence="11" value="11"/>
+                <element label="12" sequence="12" value="12"/>
+                <element label="13" sequence="13" value="13"/>
+                <element label="14" sequence="14" value="14"/>
+                <element label="15" sequence="15" value="15"/>
+                <element label="16" sequence="16" value="16"/>
+                <element label="17" sequence="17" value="17"/>
+                <element label="18" sequence="18" value="18"/>
+                <element label="19" sequence="19" value="19"/>
+                <element label="20" sequence="20" value="20"/>
+                <element label="21" sequence="21" value="21"/>
+                <element label="more than 30" sequence="21" value="more than 30"/>
+                <element label="22" sequence="22" value="22"/>
+                <element label="23" sequence="23" value="23"/>
+                <element label="24" sequence="24" value="24"/>
+                <element label="25" sequence="25" value="25"/>
+                <element label="26" sequence="26" value="26"/>
+                <element label="27" sequence="27" value="27"/>
+                <element label="28" sequence="28" value="28"/>
+                <element label="29" sequence="29" value="29"/>
+                <element label="30" sequence="30" value="30"/>
+            </choice>
+        </element>
+        <element label="On hiring process candidates" max_length="40" name="on_hiring_process_candidates" type="integer"/>
+        <element label="On review process candidates" max_length="40" name="on_review_process_candidates" type="integer"/>
+        <element label="Open job openings" max_length="40" name="open_job_openings" type="integer"/>
+        <element label="Proyecto/Área" max_length="32" name="project_area" reference="x_cits2_human_reso_projects_areas" type="reference"/>
+        <element choice="1" label="Recruiting team" max_length="40" name="recruiting_team" type="choice">
+            <choice>
+                <element label="AGS Nasoft" sequence="1" value="AGS Nasoft"/>
+                <element label="AMDOCS" sequence="2" value="AMDOCS"/>
+            </choice>
+        </element>
+        <element label="Solicitado para" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Requested for date" max_length="15" name="requested_for_date" type="glide_date"/>
+        <element label="Required certification" max_length="40" name="required_certification" type="boolean"/>
+        <element label="Required experience" max_length="2000" name="required_experience" type="string"/>
+        <element label="Required job openings" max_length="40" name="required_job_openings" type="integer"/>
+        <element label="Required knowledge" max_length="2000" name="required_knowledge" type="string"/>
+        <element label="Required language 1" max_length="32" name="required_language_1" reference="sys_language" type="reference"/>
+        <element choice="1" label="Required language 1 level" max_length="32" name="required_language_1_level" type="choice">
+            <choice>
+                <element label="Basic" sequence="1" value="Basic"/>
+                <element label="Básico" language="es" sequence="1" value="Basic"/>
+                <element label="Intermediate" sequence="2" value="Intermediate"/>
+                <element label="Intermedio" language="es" sequence="2" value="Intermediate"/>
+                <element label="Advance" sequence="3" value="Advance"/>
+                <element label="Avanzado" language="es" sequence="3" value="Advance"/>
+                <element label="Native" sequence="4" value="Native"/>
+                <element label="Nativo" language="es" sequence="4" value="Native"/>
+            </choice>
+        </element>
+        <element label="Required language 2" max_length="32" name="required_language_2" reference="sys_language" type="reference"/>
+        <element choice="1" label="Required language 2 level" max_length="32" name="required_language_2_level" type="choice">
+            <choice>
+                <element label="Basic" sequence="1" value="Basic"/>
+                <element label="Básico" language="es" sequence="1" value="Basic"/>
+                <element label="Intermediate" sequence="2" value="Intermediate"/>
+                <element label="Intermedio" language="es" sequence="2" value="Intermediate"/>
+                <element label="Advance" sequence="3" value="Advance"/>
+                <element label="Avanzado" language="es" sequence="3" value="Advance"/>
+                <element label="Native" sequence="4" value="Native"/>
+                <element label="Nativo" language="es" sequence="4" value="Native"/>
+            </choice>
+        </element>
+        <element label="Required skills" max_length="2000" name="required_skills" type="string"/>
+        <element choice="1" label="Search scope" max_length="60" name="search_scope" type="choice">
+            <choice>
+                <element label="Local" language="es" sequence="1" value="Local"/>
+                <element label="Local" sequence="1" value="Local"/>
+                <element label="Nacional" language="es" sequence="2" value="National"/>
+                <element label="National" sequence="2" value="National"/>
+                <element label="Internacional" language="es" sequence="3" value="International"/>
+                <element label="International" sequence="3" value="International"/>
+            </choice>
+        </element>
+        <element choice="1" label="&quot;Seniority&quot;" max_length="40" name="seniority" type="choice">
+            <choice>
+                <element label="Junior" sequence="1" value="Junior"/>
+                <element label="Senior" sequence="2" value="Senior"/>
+                <element label="Senior+" sequence="3" value="Senior+"/>
+            </choice>
+        </element>
+        <element choice="1" default="AGS Nasoft" label="Fuente" max_length="32" name="source" type="choice">
+            <choice>
+                <element label="AGS Nasoft" value="AGS Nasoft"/>
+                <element label="AMDOCS" value="AMDOCS"/>
+            </choice>
+        </element>
+        <element label="Work location" max_length="4000" name="work_location" reference="u_cities" type="glide_list"/>
+        <element choice="1" label="Work location type" max_length="50" name="work_location_type" type="choice">
+            <choice>
+                <element label="En sitio" language="es" sequence="1" value="On site"/>
+                <element label="On site" sequence="1" value="On site"/>
+                <element label="Remote" sequence="2" value="Remote"/>
+                <element label="Remoto" language="es" sequence="2" value="Remoto"/>
+            </choice>
+        </element>
+    </element>
+</database>

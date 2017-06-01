@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>true</can_cancel>
+        <category display_value="Staffing">f9a390b84f769a006be5e8128110c7e5</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AMDOCS job opening requirement</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>100</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c291b6014f3e9a0000fcbc218110c7af&amp;sysparm_preview=true", "summary");</preview>
+        <price>0.00</price>
+        <recurring_frequency/>
+        <recurring_price>0.00</recurring_price>
+        <roles/>
+        <sc_catalogs>690198784f769a006be5e8128110c732</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.contact_type = 'self-service';
+
+var usuario = gs.getUserID();
+current.requested_for = usuario;
+
+var descripcion_breve = producer.job_title.getDisplayValue() + " - " + producer.job_profile.getDisplayValue();
+
+current.short_description = descripcion_breve;
+
+var descripcion = "Job opening main information: \n\n";
+	descripcion += "- Job title: " + producer.job_title.getDisplayValue() + "\n";
+    descripcion += "- Number of openings: " + producer.number_of_openings + "\n";
+    descripcion += "- Role definition: " + producer.job_opening_main_activities + "\n";	
+    descripcion += "- Required skills: " + producer.required_skilss + "\n";
+    descripcion += "- Advantages (nice to have skills: )" + producer.advantages + "\n";
+   
+current.description = descripcion;]]></script>
+        <short_description>AMDOCS job opening requirement</short_description>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:02:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c291b6014f3e9a0000fcbc218110c7af</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>AMDOCS job opening requirement</sys_name>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sc_cat_item_producer_c291b6014f3e9a0000fcbc218110c7af</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-05-02 18:50:34</sys_updated_on>
+        <table_name>x_cits2_human_reso_hr_staffing_task</table_name>
+        <template display_value="Template  HR Req. de personal (AMDOCS)">b66551784fb69a006be5e8128110c7c2</template>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=c291b6014f3e9a0000fcbc218110c7af"/>
+    <fx_price action="delete_multiple" query="id=c291b6014f3e9a0000fcbc218110c7af"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="MXN">MXN</currency>
+        <field>price</field>
+        <id>c291b6014f3e9a0000fcbc218110c7af</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:02:54</sys_created_on>
+        <sys_id>4a91b6014f3e9a0000fcbc218110c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-13 22:02:54</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="MXN">MXN</currency>
+        <field>recurring_price</field>
+        <id>c291b6014f3e9a0000fcbc218110c7af</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-13 22:02:54</sys_created_on>
+        <sys_id>8a91b6014f3e9a0000fcbc218110c7af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-13 22:02:54</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>16057</size_bytes>
+        <size_compressed>2091</size_compressed>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 14:51:53</sys_created_on>
+        <sys_id>568812914ffe9a0000fcbc218110c742</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-14 14:51:53</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>c291b6014f3e9a0000fcbc218110c7af</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="568812914ffe9a0000fcbc218110c742">568812914ffe9a0000fcbc218110c742</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 14:51:53</sys_created_on>
+        <sys_id>968812914ffe9a0000fcbc218110c742</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2776</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="568812914ffe9a0000fcbc218110c742">568812914ffe9a0000fcbc218110c742</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 14:51:53</sys_created_on>
+        <sys_id>d68812914ffe9a0000fcbc218110c742</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>16057</size_bytes>
+        <size_compressed>2091</size_compressed>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 14:51:59</sys_created_on>
+        <sys_id>a38896d14ffe9a0000fcbc218110c73f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-04-14 14:51:59</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>c291b6014f3e9a0000fcbc218110c7af</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="a38896d14ffe9a0000fcbc218110c73f">a38896d14ffe9a0000fcbc218110c73f</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 14:51:59</sys_created_on>
+        <sys_id>e38896d14ffe9a0000fcbc218110c73f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2776</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="a38896d14ffe9a0000fcbc218110c73f">a38896d14ffe9a0000fcbc218110c73f</sys_attachment>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-04-14 14:51:59</sys_created_on>
+        <sys_id>278896d14ffe9a0000fcbc218110c73f</sys_id>
+    </sys_attachment_doc>
+</record_update>

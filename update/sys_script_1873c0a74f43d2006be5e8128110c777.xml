@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="ce82924a4ff74e006be5e8128110c738" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cits2_human_reso_hr_staffing_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>conteo de candidatos identificados</p>]]></message>
+        <name>HRST - Count on hiring process candidates</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onBefore(current, previous) {
+   //This function will be automatically called when this rule is processed.
+   var candidatos = new GlideRecord ('x_cits2_human_reso_candidate');
+	  
+	candidatos.addQuery('job_opening', '=', current.sys_id);
+	candidatos.addQuery('viable_recruitment', '=', true);
+	candidatos.query();
+	
+	 var contador_candidatos_proceso_contratacion = 0;
+	
+		while (candidatos.next()) 
+		{ 
+			if(candidatos.state != 6){
+				contador_candidatos_proceso_contratacion ++;
+			}
+		}
+   
+    current.on_hiring_process_candidates = contador_candidatos_proceso_contratacion; 
+	gs.addInfoMessage("cuenta candidatos en proceso de contratacion: " + contador_candidatos_proceso_contratacion);
+	
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano@agsnasoft.com</sys_created_by>
+        <sys_created_on>2016-05-03 14:02:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>ce82924a4ff74e006be5e8128110c738</sys_domain>
+        <sys_domain_path>!!!/!!!/!!$/!!#/</sys_domain_path>
+        <sys_id>1873c0a74f43d2006be5e8128110c777</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HRST - Count on hiring process candidates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Staffing" source="x_cits2_human_reso">4e9008e44ff29a0000fcbc218110c799</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Staffing">4e9008e44ff29a0000fcbc218110c799</sys_scope>
+        <sys_update_name>sys_script_1873c0a74f43d2006be5e8128110c777</sys_update_name>
+        <sys_updated_by>hugo.ruano@agsnasoft.com</sys_updated_by>
+        <sys_updated_on>2016-05-03 14:34:04</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1873c0a74f43d2006be5e8128110c777"/>
+</record_update>
